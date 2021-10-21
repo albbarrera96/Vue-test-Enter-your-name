@@ -1,0 +1,49 @@
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    outline-style: solid black 2px;
+    border: black 2.5px;
+    border-style: solid;
+    background-color: rgb(0, 17, 255);
+    color:white;
+    font-size: 25px;
+}
+button .submit{
+    outline-style: solid black 2px;
+    border: black 2.5px;
+    border-style: solid;
+    background-color: rgb(165, 28, 147);
+    color:white;
+    font-size: 25px;
+}
+#app-2{
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#app-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+#app-4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color:rgb(2, 255, 120);
+    font-style: italic;
+
+}
+div .input{
+    size: 55px;
+    border: 50px;
+    border-color: black;
+}
+#canvas{
+    width: 600px;
+    padding: 200px 20px;
+    text-align: center;
+    border: 1px solid #333;
+    color: red;
+    font-size: 25px;
+}

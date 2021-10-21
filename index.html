@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO VUE</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+    <div id="vue-app">
+      <h1>TIME TO TRY SOME KEYBOARD EVENTS</h1>
+      <h2>¡Don't forget to tap ENTER!</h2>
+      <label>NAME:</label>
+      <input type="text" v-on:keyup.enter="logName" />
+      <label>AGE:</label>
+      <input type="text" v-on:keyup.enter="logAge"  />
+      <P>
+
+      </P>
+      <H2>Oh...I see your name is {{ name }} and you're {{ age }}</H2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
